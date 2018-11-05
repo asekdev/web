@@ -46,7 +46,7 @@ const Home = () => {
                                   scale={[.55, 1]}>
                                     <div className="col-lg-8 offset-lg-2 ofcol-md-10 col-sm-12">
                                         <h5 className="bio-text">Passionate about developing clean, readable, modular 
-                                            and maintanable code. Alongside a frictionless, intuitive UI
+                                            and maintainable code. Alongside a frictionless, intuitive UI
                                         – keeping up to date with the latest cutting edge web technologies.
             
                                         </h5>
