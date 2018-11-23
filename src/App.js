@@ -3,27 +3,26 @@ import './App.css';
 import './assets/css/bootstrap.css';
 import Home from './_components/Home';
 import Particles from 'react-particles-js';
+import MetaTags from 'react-meta-tags';
 
 class App extends Component {
 
 	constructor(props) {
 		super(props);
-
 	}
 
   render() {
     return (
       <div className="App">
+			<MetaTags>
+            <meta property="og:image" content="./assets/images/web-preview.png"/>
+			</MetaTags>
         <div id="particles">
 			<Particles
 			params={{
 			"particles": {
 				"number": {
 					"value": 100,
-					// `"density": {
-					//     "enable": false,
-					//     "value_area": 1000
-					// }`
 				},
 				"interactivity": {
 					"events": {

@@ -57,7 +57,7 @@ const Home = () => {
                                     </div>
                                </Anime>
                                 <div className="col-lg-12 mt-1">
-                                   <Anime delay={(e, i) => 1 * 9500}
+                                   <Anime delay={(e, i) => 1 * 1500}
                                   easing="easeOutCirc"
                                   opacity={[0,1]}
                                   scale={[.55, 1]}>
