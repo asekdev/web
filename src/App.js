@@ -3,7 +3,6 @@ import './App.css';
 import './assets/css/bootstrap.css';
 import Home from './_components/Home';
 import Particles from 'react-particles-js';
-import MetaTags from 'react-meta-tags';
 
 class App extends Component {
 
@@ -14,9 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-			<MetaTags>
-            <meta property="og:image" content="./assets/images/web-preview.png"/>
-			</MetaTags>
+		
         <div id="particles">
 			<Particles
 			params={{
