@@ -12,7 +12,7 @@ import Anime from 'react-anime';
 
 const Home = () => {
    
-    const gitlink = "https://github.com/asek07";
+    const gitlink = "https://github.com/asekdev";
     const linkedInlink = "https://www.linkedin.com/in/andrew-sekulovski-21305a15a/";
 
     return(
