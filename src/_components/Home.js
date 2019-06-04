@@ -20,7 +20,7 @@ const Home = () => {
 				<div className="row" id="main">
 					<div className="col-lg-12 col-md-12 col-sm-12 mt-3">
 						<div>
-							<Anime delay={(e, i) => 1 * 300} scale={[0, 1]}>
+							<Anime delay={(e, i) => 1 * 300} opacity={[0, 1]} duration={10 * 2000}>
 								<img src={ASLogo} className="as-logo" />
 							</Anime>
 						</div>
