@@ -38,7 +38,7 @@ class Experience extends Component {
 					<h4 className="experience-text">
 						<ReactTyped
 							strings={[
-								"<span style='color:#ffdd59'>Frontend</span>",
+								"<span style='color:#feca57'>Frontend</span>",
 								"<span style='color:#22a7f0'>Backend</span>",
 								"<span style='color:#55E6C1'>Full Stack Developer</span>"
 							]}
@@ -46,9 +46,6 @@ class Experience extends Component {
 							backSpeed={70}
 							backDelay={2}
 							showCursor={this.state.hideCursor}
-							onComplete={() => {
-								this.setState({ hideCursor: false });
-							}}
 							startDelay={1000}
 							smartBackspace
 						/>
