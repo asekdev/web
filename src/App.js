@@ -12,6 +12,8 @@ class App extends Component {
 	}
 
 	render() {
+		let numNodes = isMobile ? 50 : 100;
+
 		return (
 			<div className="App">
 				<div id="particles">
@@ -19,7 +21,7 @@ class App extends Component {
 						params={{
 							particles: {
 								number: {
-									value: 100
+									value: numNodes
 								},
 								interactivity: {
 									events: {
@@ -31,8 +33,8 @@ class App extends Component {
 									}
 								},
 								line_linked: {
-									enable: true,
-									opacity: 0.1
+									enable: !isMobile,
+									opacity: 0.05
 								},
 								move: {
 									direction: "none",

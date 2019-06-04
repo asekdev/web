@@ -27,7 +27,13 @@ const Home = () => {
 					</div>
 					<div className="col-lg-12 col-md-12 col-sm-12">
 						<div className="mt-3">
-							<Anime delay={(e, i) => 1 * 1000} easing="easeOutCirc" opacity={[0, 1]} scale={[0.55, 1]}>
+							<Anime
+								delay={(e, i) => 1 * 1000}
+								easing="easeOutCirc"
+								duration={500}
+								opacity={[0, 1]}
+								translateY={[50, 0]}
+							>
 								<h1 className="name-header-text">Andrew Sekulovski</h1>
 							</Anime>
 							<Experience />
