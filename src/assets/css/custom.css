@@ -1,244 +1,242 @@
-h1, h2, h3, h4, h5, h6 {
-    color: white !important;
-    font-family: 'Lato', sans-serif;
-
-  }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: white !important;
+	font-family: "Lato", sans-serif;
+}
 
 .initialsLogo {
-    border-radius: 150px;
-    border: 3px solid white;
-    display: inline-block;
-    padding: 1 0px;
+	border-radius: 150px;
+	border: 3px solid white;
+	display: inline-block;
+	padding: 1 0px;
 }
 
 .bio-mt {
-    margin-top: 45px;
+	margin-top: 45px;
 }
 
 .initials-text {
-    margin: 0;
-    font-size: 80px;
-    z-index: 100;
-    padding-right: 25px;
-    padding-left: 25px;
+	margin: 0;
+	font-size: 80px;
+	z-index: 100;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 .name-header-text {
-    font-size: 75px;
-    font-weight: 700;
+	font-size: 75px;
+	font-weight: 700;
 }
 
 .experience-text {
-    font-weight: 500 !important;
-    font-size: 30px;
+	font-weight: 300 !important;
+	font-size: 30px;
 }
 
 .bio-text {
-    font-size: 20px;
-    font-weight: 100 !important;
+	font-size: 20px;
+	font-weight: 300 !important;
 }
 
 .contact-text {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .socialButtonDiv {
-    width: 40px; 
-    height: 40px;
-    background-color: white;
-    display: inline-block;
-    margin: 10px;
-    border-radius: 100%;
-    z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(223, 228, 234, 0.8);
+	display: inline-block;
+	margin: 10px;
+	border-radius: 100%;
+	z-index: 1;
 }
 
 .social-img-wrapper {
-    z-index: 100;
+	z-index: 100;
 }
 
 .social-image {
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1000;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1000;
 }
 
 .experience-wrapper {
-    height: 30px;
+	height: 30px;
 }
 
 .as-logo {
-    height: 250px;
-    width: 250px;
+	height: 250px;
+	width: 250px;
 }
 
 .linkedin-contact {
-    font-weight: 700;
-    color: #25CCF7 !important;
+	font-weight: 700;
+	color: #25ccf7 !important;
 }
-@media all and (max-width: 1199px) { 
-    .initialsLogo {
-        border-radius: 150px;
-        border: 3px solid white;
-        display: inline-block;
-        padding: 1 0px;
-    }
-    
-    .initials-text {
-        margin: 0;
-        font-size: 80px;
-        z-index: 100;
-        padding-right: 25px;
-        padding-left: 25px;
-    }
+@media all and (max-width: 1199px) {
+	.initialsLogo {
+		border-radius: 150px;
+		border: 3px solid white;
+		display: inline-block;
+		padding: 1 0px;
+	}
 
-    .bio-mt {
-        margin-top: 45px;
-    }
-    
-    .name-header-text {
-        font-size: 75px;
-        font-weight: 700;
-    }
-    
-    .experience-text {
-        font-weight: 900;
-        font-size: 30px;
-    }
-    
-    .bio-text {
-        font-size: 20px;
-    }
-    
-    .contact-text {
-        font-size: 16px;
-    }
-    
-    .socialButtonDiv {
-        width: 40px; 
-        height: 40px;
-        background-color: white;
-    
-        display: inline-block;
-        margin: 10px;
-        border-radius: 100%;
-        z-index: 1;
-    }
-    
-    .social-img-wrapper {
-        z-index: 100;
-    }
-    
-    .social-image {
-        display: block;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1000;
-    }
-    
-    .experience-wrapper {
-        height: 30px;
-    }
-    
-    .linkedin-contact {
-        font-weight: 700;
-        color: #3498db;
-    }
-    
- } 
-@media all and (max-width: 991px) { 
+	.initials-text {
+		margin: 0;
+		font-size: 80px;
+		z-index: 100;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
 
+	.bio-mt {
+		margin-top: 45px;
+	}
 
- } 
-@media all and (max-width: 768px) { 
+	.name-header-text {
+		font-size: 75px;
+		font-weight: 700;
+	}
 
-    .as-logo {
-        height: 200px;
-        width: 200px;
-    }
-    
-    .initials-text {
-        margin: 0;
-        font-size: 80px;
-        z-index: 100;
-        padding-right: 25px;
-        padding-left: 25px;
-    }
+	.experience-text {
+		font-weight: 900;
+		font-size: 30px;
+	}
 
-    .bio-mt {
-        margin-top: 30px;
-    }
-    
-    .name-header-text {
-        font-size: 50px;
-        font-weight: 700;
-    }
-    
-    .experience-text {
-        font-weight: 900;
-        font-size: 20px;
-    }
-    
-    .bio-text {
-        font-size: 18px;
-    }
-    
-    .contact-text {
-        font-size: 16px;
-    }
-    
-    .socialButtonDiv {
-        width: 40px; 
-        height: 40px;
-        background-color: white;
-    
-        display: inline-block;
-        margin: 10px;
-        border-radius: 100%;
-        z-index: 1;
-    }
-    
-    .social-img-wrapper {
-        z-index: 100;
-    }
-    
-    .social-image {
-        display: block;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1000;
-    }
-    
-    .experience-wrapper {
-        height: 30px;
-    }
-    
-    .linkedin-contact {
-        font-weight: 700;
-        color: #3498db;
-    }
- } 
-@media all and (max-width: 575px) { 
-    .name-header-text {
-        font-size: 50px;
-        font-weight: 700;
-    }
-    
-    .experience-text {
-        font-weight: 900;
-        font-size: 20px;
-    }
-    
-    .bio-text {
-        font-size: 18px;
-    }
-    
-    .contact-text {
-        font-size: 18px;
-    }
-    
- }
+	.bio-text {
+		font-size: 20px;
+	}
+
+	.contact-text {
+		font-size: 16px;
+	}
+
+	.socialButtonDiv {
+		width: 40px;
+		height: 40px;
+		background-color: white;
+
+		display: inline-block;
+		margin: 10px;
+		border-radius: 100%;
+		z-index: 1;
+	}
+
+	.social-img-wrapper {
+		z-index: 100;
+	}
+
+	.social-image {
+		display: block;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1000;
+	}
+
+	.experience-wrapper {
+		height: 30px;
+	}
+
+	.linkedin-contact {
+		font-weight: 700;
+		color: #3498db;
+	}
+}
+@media all and (max-width: 991px) {
+}
+@media all and (max-width: 768px) {
+	.as-logo {
+		height: 200px;
+		width: 200px;
+	}
+
+	.initials-text {
+		margin: 0;
+		font-size: 80px;
+		z-index: 100;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.bio-mt {
+		margin-top: 30px;
+	}
+
+	.name-header-text {
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+	.experience-text {
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.bio-text {
+		font-size: 18px;
+	}
+
+	.contact-text {
+		font-size: 16px;
+	}
+
+	.socialButtonDiv {
+		width: 40px;
+		height: 40px;
+		background-color: white;
+
+		display: inline-block;
+		margin: 10px;
+		border-radius: 100%;
+		z-index: 1;
+	}
+
+	.social-img-wrapper {
+		z-index: 100;
+	}
+
+	.social-image {
+		display: block;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1000;
+	}
+
+	.experience-wrapper {
+		height: 30px;
+	}
+
+	.linkedin-contact {
+		font-weight: 700;
+		color: #3498db;
+	}
+}
+@media all and (max-width: 575px) {
+	.name-header-text {
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+	.experience-text {
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	.bio-text {
+		font-size: 18px;
+	}
+
+	.contact-text {
+		font-size: 18px;
+	}
+}
