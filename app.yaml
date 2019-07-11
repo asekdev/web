@@ -1,3 +1,5 @@
+# pull, npm install, npm run build, gcloud app deploy app.yaml
+
 env: standard
 runtime: nodejs10
 service: default
