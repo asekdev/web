@@ -2,35 +2,15 @@ env: standard
 runtime: nodejs10
 service: default
 
-# handlers:
-#   - url: /static
-#     static_dir: build/static
-
-#   - url: /(.*\.(json|ico|js|png|jpg))$
-#     static_files: build/\1
-#     upload: build/.*\.(json|ico|js|png|jpg)$
-
-#   - url: .*
-#     static_files: build/index.html
-#     upload: build/index.html
-#     secure: always
-
 handlers:
-  - url: /static/js/(.*)
-    static_files: build/static/js/\1
-    upload: build/static/js/(.*)
-  - url: /static/css/(.*)
-    static_files: build/static/css/\1
-    upload: build/static/css/(.*)
-  - url: /static/media/(.*)
-    static_files: build/static/media/\1
-    upload: build/static/media/(.*)
-  - url: /(.*\.(json|ico))$
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(json|ico|js|png|jpg))$
     static_files: build/\1
-    upload: build/.*\.(json|ico)$
-  - url: /
+    upload: build/.*\.(json|ico|js|png|jpg)$
+
+  - url: .*
     static_files: build/index.html
     upload: build/index.html
-  - url: /.*
-    static_files: build/index.html
-    upload: build/index.html
+    secure: always
