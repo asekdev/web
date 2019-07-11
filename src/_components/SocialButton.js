@@ -8,7 +8,7 @@ class SocialButton extends Component {
 
 	render() {
 		return (
-			<div className="socialButtonDiv hvr-wobble-vertical">
+			<div className="socialButtonDiv hvr-wobble-vertical" style={{ zIndex: 10000002 }}>
 				<div className="social-img-wrapper">
 					<a target="_blank" href={this.props.link}>
 						<img className="social-image" src={this.props.image} width="50%" />

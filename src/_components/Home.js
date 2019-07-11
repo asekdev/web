@@ -46,15 +46,15 @@ const Home = () => {
 											Passionate about developing clean, readable, modular and maintainable code. Alongside a
 											frictionless, intuitive UI – keeping up to date with the latest cutting edge web technologies.
 										</h5>
-										<h6 className="contact-text mt-5">
+										{/* <h6 className="contact-text mt-5">
 											Want to chat? Hit me up on{" "}
 											<strong>
 												<span className="linkedInText">Linked In</span>
 											</strong>
-										</h6>
+										</h6> */}
 									</div>
 								</Anime>
-								<div className="col-lg-12 mt-1">
+								<div className="col-lg-12 mt-4">
 									<Anime delay={(e, i) => 1 * 1500} easing="easeOutCirc" opacity={[0, 1]} scale={[0.55, 1]}>
 										<div className="text-center mb-4">
 											<SocialButton image={githubImg} link={gitlink} />

@@ -21,7 +21,7 @@ class App extends Component {
 						params={{
 							particles: {
 								number: {
-									value: numNodes
+									value: 200
 								},
 								interactivity: {
 									events: {
@@ -33,34 +33,32 @@ class App extends Component {
 									}
 								},
 								line_linked: {
-									enable: !isMobile,
-									opacity: 0.05
+									enable: false,
+									opacity: 0.04
 								},
 								move: {
 									direction: "none",
 									random: true,
-									speed: 2
+									speed: 1
 								},
 								size: {
-									value: 2
+									value: 1
 								},
 								opacity: {
 									anim: {
 										enable: true,
-										speed: 2,
-										opacity_min: 0.05
+										speed: 1,
+										opacity_min: 0.5
 									}
 								}
 							},
 							retina_detect: true
 						}}
 					/>
-				</div>
-				<div>
 					<Home />
 				</div>
 
-				{!isMobile && (
+				{/* {!isMobile && (
 					<div id="particlesTwo">
 						<Particles
 							params={{
@@ -101,7 +99,8 @@ class App extends Component {
 							}}
 						/>
 					</div>
-				)}
+				)} */}
+				<div />
 			</div>
 		);
 	}

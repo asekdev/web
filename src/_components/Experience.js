@@ -7,7 +7,6 @@ class Experience extends Component {
 		super(props);
 
 		this.delayedStartUp = this.delayedStartUp.bind(this);
-		this.hideCursorIcon = this.hideCursorIcon.bind(this);
 		this.state = {
 			show: false,
 			hideCursor: true
@@ -16,7 +15,6 @@ class Experience extends Component {
 
 	componentDidMount() {
 		this.delayedStartUp();
-		this.hideCursorIcon();
 	}
 
 	delayedStartUp() {
@@ -25,27 +23,17 @@ class Experience extends Component {
 		}, 1500);
 	}
 
-	hideCursorIcon() {
-		setTimeout(() => {
-			this.setState({ hideCursor: false });
-		}, 4000);
-	}
-
 	render() {
 		return (
 			<div className="experience-wrapper">
 				{this.state.show && (
 					<h4 className="experience-text">
 						<ReactTyped
-							strings={[
-								"<span style='color:#feca57'>Frontend</span>",
-								"<span style='color:#22a7f0'>Backend</span>",
-								"<span style='color:#55E6C1'>Full Stack Developer</span>"
-							]}
+							strings={["<span style='color:#9fff9f'>Full Stack Developer</span>"]}
 							typeSpeed={70}
 							backSpeed={70}
 							backDelay={2}
-							showCursor={this.state.hideCursor}
+							showCursor={false}
 							startDelay={1000}
 							smartBackspace
 						/>
