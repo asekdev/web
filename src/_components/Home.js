@@ -30,7 +30,7 @@ const Home = () => {
 							<Anime
 								delay={(e, i) => 1 * 1000}
 								easing="easeOutCirc"
-								duration={500}
+								duration={900}
 								opacity={[0, 1]}
 								translateY={[50, 0]}
 							>

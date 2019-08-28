@@ -8,7 +8,6 @@ import { isMobile } from "react-device-detect";
 class App extends Component {
 	constructor(props) {
 		super(props);
-		console.log("ismobile is ", isMobile);
 	}
 
 	render() {
@@ -57,49 +56,6 @@ class App extends Component {
 					/>
 					<Home />
 				</div>
-
-				{/* {!isMobile && (
-					<div id="particlesTwo">
-						<Particles
-							params={{
-								particles: {
-									number: {
-										value: 200
-									},
-									interactivity: {
-										events: {
-											onhover: {
-												enable: false,
-												mode: "repulse"
-											},
-											resize: true
-										}
-									},
-									line_linked: {
-										enable: false,
-										opacity: 0.04
-									},
-									move: {
-										direction: "none",
-										random: true,
-										speed: 1
-									},
-									size: {
-										value: 1
-									},
-									opacity: {
-										anim: {
-											enable: true,
-											speed: 1,
-											opacity_min: 0.5
-										}
-									}
-								},
-								retina_detect: true
-							}}
-						/>
-					</div>
-				)} */}
 				<div />
 			</div>
 		);
