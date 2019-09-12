@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../assets/css/custom.css";
-import ReactTyped from "react-typed";
+import "../assets/css/custom.css";
+import RubberBand from "react-reveal/RubberBand";
 
 class Title extends Component {
 	constructor(props) {
@@ -8,8 +9,7 @@ class Title extends Component {
 
 		this.delayedStartUp = this.delayedStartUp.bind(this);
 		this.state = {
-			show: false,
-			hideCursor: true
+			show: false
 		};
 	}
 
@@ -20,24 +20,16 @@ class Title extends Component {
 	delayedStartUp() {
 		setTimeout(() => {
 			this.setState({ show: true });
-		}, 1500);
+		}, 2200);
 	}
 
 	render() {
 		return (
 			<div className="experience-wrapper">
 				{this.state.show && (
-					<h4 className="experience-text">
-						<ReactTyped
-							strings={[`<span style='color:#9fff9f'>${this.props.title}</span>`]}
-							typeSpeed={70}
-							backSpeed={70}
-							backDelay={2}
-							showCursor={false}
-							startDelay={1000}
-							smartBackspace
-						/>
-					</h4>
+					<RubberBand>
+						<h4 className="experience-text">{this.props.title}</h4>
+					</RubberBand>
 				)}
 			</div>
 		);
