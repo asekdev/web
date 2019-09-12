@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../assets/css/custom.css";
 import ReactTyped from "react-typed";
 
-class Experience extends Component {
+class Title extends Component {
 	constructor(props) {
 		super(props);
 
@@ -29,7 +29,7 @@ class Experience extends Component {
 				{this.state.show && (
 					<h4 className="experience-text">
 						<ReactTyped
-							strings={["<span style='color:#9fff9f'>Full Stack Developer</span>"]}
+							strings={[`<span style='color:#9fff9f'>${this.props.title}</span>`]}
 							typeSpeed={70}
 							backSpeed={70}
 							backDelay={2}
@@ -44,4 +44,4 @@ class Experience extends Component {
 	}
 }
 
-export default Experience;
+export default Title;
