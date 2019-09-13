@@ -6,7 +6,7 @@ import Logo from "./Logo";
 import Bio from "./Bio";
 import Contact from "./Contact";
 import About from "./About";
-import Info from "../info";
+import Info from "../data/info";
 
 const Home = () => {
 	return (

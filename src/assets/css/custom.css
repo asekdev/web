@@ -107,11 +107,11 @@ h6 {
 
 	.name-header-text {
 		font-size: 75px;
-		font-weight: 700;
+		font-weight: 400;
 	}
 
 	.experience-text {
-		font-weight: 900;
+		font-weight: 400;
 		font-size: 30px;
 	}
 
@@ -177,11 +177,11 @@ h6 {
 
 	.name-header-text {
 		font-size: 50px;
-		font-weight: 700;
+		font-weight: 400;
 	}
 
 	.experience-text {
-		font-weight: 900;
+		font-weight: 400;
 		font-size: 20px;
 	}
 
@@ -227,11 +227,11 @@ h6 {
 @media all and (max-width: 575px) {
 	.name-header-text {
 		font-size: 50px;
-		font-weight: 700;
+		font-weight: 400;
 	}
 
 	.experience-text {
-		font-weight: 900;
+		font-weight: 400;
 		font-size: 20px;
 	}
 
@@ -241,5 +241,30 @@ h6 {
 
 	.contact-text {
 		font-size: 18px;
+	}
+}
+
+@media all and (max-width: 550px) {
+	.as-logo {
+		height: 150px;
+		width: 150px;
+	}
+
+	.name-header-text {
+		font-size: 32px;
+		font-weight: 400;
+	}
+
+	.experience-text {
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.bio-text {
+		font-size: 14px;
+	}
+
+	.bio-mt {
+		margin-top: 12px;
 	}
 }
