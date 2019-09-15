@@ -5,15 +5,15 @@ import Home from "./_components/Home";
 import CustomParticles from "./_components/Particles";
 
 const App = () => {
-	return (
-		<div className="App">
-			<div id="particles">
-				<CustomParticles />
-				<Home />
-			</div>
-			<div />
-		</div>
-	);
+  return (
+    <div className="App">
+      <div id="particles">
+        <CustomParticles />
+        <Home />
+      </div>
+      <div />
+    </div>
+  );
 };
 
 export default App;
